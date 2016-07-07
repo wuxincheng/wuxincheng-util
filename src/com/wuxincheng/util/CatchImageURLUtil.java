@@ -109,7 +109,7 @@ public class CatchImageURLUtil {
 	 * 
 	 * @param listImgSrc
 	 */
-	private void Download(List<String> listImgSrc) {
+	public void Download(List<String> listImgSrc) {
 		try {
 			for (String url : listImgSrc) {
 				String imageName = url.substring(url.lastIndexOf("/") + 1,
